@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4de4e7c1-51d6-45b3-902e-c8486a680fff" name="Changes" comment="Добавил новый стиль">
+    <list default="true" id="4de4e7c1-51d6-45b3-902e-c8486a680fff" name="Changes" comment="Добавил новый стиль ко второму шаблону">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopWeb/base/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWeb/base/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopWeb/base/static/img/romashka.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopWeb/base/templates/base/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWeb/base/templates/base/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopWeb/base/templates/base/add_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWeb/base/templates/base/add_product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopWeb/base/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWeb/base/templates/base/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopWeb/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWeb/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +28,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SergeG28071988"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1d4eb3aa-d747-4053-a6da-736c16d92dd5" />
+        <option name="url" value="https://github.com/SergeG28071988/ShopWeb.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -73,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706878650899</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил новый стиль ко второму шаблону">
+      <option name="closed" value="true" />
+      <created>1706878947270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706878947270</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил новый стиль" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил новый стиль" />
+    <MESSAGE value="Добавил новый стиль ко второму шаблону" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил новый стиль ко второму шаблону" />
   </component>
 </project>

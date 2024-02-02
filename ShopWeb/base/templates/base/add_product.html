@@ -1,31 +1,31 @@
 {% extends 'base/base.html' %}
+
 {% load static %}
-{% block title  %}
-Добавить товар 
-{% endblock  %}
 
-{% block content  %}
-   <h1>Добавить товар</h1><br>
-   <form method="post">
-      {% csrf_token %}
-      <div class="form-group">
-        {{ form.title.label_tag }}
-        {{ form.name }}
-      </div><br>
-      <div class="form-group">
-        {{ form.title.label_tag }}
-        {{ form.description }}
-      </div><br>
-      <div class="form-group">
-        {{ form.title.label_tag }}
-        {{ form.quantity }}
-      </div>
-      <div class="form-group">
-        {{ form.title.label_tag }}
-        {{ form.price }}
-      </div><br>
-      <button type="submit" class="btn btn-success">Добавить товар</button>
-      <span>{{ error }}</span> 
-   </form>
+{% block title %}
+Добавить товар
+{% endblock %}
 
-{% endblock  %}
+{% block content %}
+<br>
+<div class="container mt-5">
+  <h1 class="text-center">Добавить товар</h1>
+  <form method="POST">
+        {% csrf_token %}
+        <label for="name">Наименование:</label>
+        <input type="text" id="name" name="name" class="form-control" placeholder="Введите наименование товара" required>
+
+        <label for="description">Описание:</label>
+        <textarea id="description" name="description" class="form-control" placeholder="Введите описание товара" required></textarea>
+
+        <label for="quantity">Количество:</label>
+        <input type="number" id="quantity" name="quantity" class="form-control" placeholder="Введите количество товара" required>
+
+        <label for="price">Цена:</label>
+        <input type="number" id="price" name="price" class="form-control" placeholder="Введите цену товара" required>
+
+        <input type="submit" class="btn btn-success" value="Добавить товар">
+    </form>
+</div>
+{% endblock %}
+
