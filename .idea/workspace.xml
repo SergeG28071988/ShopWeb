@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4de4e7c1-51d6-45b3-902e-c8486a680fff" name="Changes" comment="Добавил новый стиль ко второму шаблону">
+    <list default="true" id="4de4e7c1-51d6-45b3-902e-c8486a680fff" name="Changes" comment="Изменил шаблоны add_product и about">
+      <change beforePath="$PROJECT_DIR$/.idea/ShopWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ShopWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopWeb/base/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWeb/base/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopWeb/base/static/img/romashka.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopWeb/base/templates/base/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWeb/base/templates/base/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopWeb/base/templates/base/add_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWeb/base/templates/base/add_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopWeb/base/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWeb/base/templates/base/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopWeb/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWeb/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopWeb/base/templates/base/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWeb/base/templates/base/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +26,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SergeG28071988"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SergeG28071988&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -62,13 +59,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/T1000/PycharmProjects/ShopWeb/ShopWeb/base/static/img&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\T1000\PycharmProjects\ShopWeb\ShopWeb\base\static\img" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706878947270</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Изменил шаблоны add_product и about">
+      <option name="closed" value="true" />
+      <created>1706882712013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706882712013</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил новый стиль" />
     <MESSAGE value="Добавил новый стиль ко второму шаблону" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил новый стиль ко второму шаблону" />
+    <MESSAGE value="Изменил шаблоны add_product и about" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменил шаблоны add_product и about" />
   </component>
 </project>
